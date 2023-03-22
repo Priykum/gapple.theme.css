@@ -1,0 +1,78 @@
+/* Apple-inspired Discord theme - Dark mode */
+:root {
+  /* Background colors */
+  --background-primary: #1c1c1e;
+  --background-secondary: #2c2c2e;
+  --background-tertiary: #404042;
+  --background-quaternary: #2e2e30;
+  
+  /* Text colors */
+  --text-normal: #ffffff;
+  --text-muted: #b1b1b3;
+  --text-link: #5890ff;
+  
+  /* Brand color */
+  --brand-color: #5890ff;
+}
+
+/* Backgrounds */
+body,
+.chat {
+  background-color: var(--background-primary) !important;
+}
+
+/* Channel List */
+.container-1D34oG,
+.containerDefault--pIXnN {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Chat Input Box */
+.textArea-12jD-V,
+.textArea-2Spzkt {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Chat Messages */
+.message-2qnXI6 .markup-2BOw-j {
+  color: var(--text-normal) !important;
+}
+
+.message-2qnXI6 .timestamp-3ZCmNB {
+  color: var(--text-muted) !important;
+}
+
+/* Hyperlinks */
+a,
+a:hover {
+  color: var(--text-link) !important;
+}
+
+/* Server Icons */
+.selected-aXhQR6 {
+  background-color: var(--brand-color) !important;
+}
+
+/* Rounded Corners */
+.chat {
+  border-radius: 10px !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-quaternary) !important;
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-secondary) !important;
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--background-tertiary) !important;
+}
